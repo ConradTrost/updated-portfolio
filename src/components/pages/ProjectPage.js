@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Projects from '../Projects';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
 
 export class ProjectPage extends Component {
     render() {
@@ -8,6 +9,7 @@ export class ProjectPage extends Component {
             <div>
                 <Navbar />
                 <Projects />
+                <Footer />
             </div>
         )
     }

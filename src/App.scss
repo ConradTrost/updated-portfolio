@@ -181,9 +181,34 @@
   display: flex;
 }
 
-.skill-rows svg {
+.skill-svg {
   height: 90%;
   width: 90%;
+}
+
+.highlighted {
+  color: rgb(6, 105, 235);
+  font-size: 24px;
+}
+
+.footer {
+  height: 80px;
+  background: transparent;
+  width: 100%;
+  display: flex;
+}
+
+.fab-container {
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+
+.fab {
+  color: rgb(90, 121, 223);
+  font-size: 28px;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -211,7 +236,7 @@
     width: 60%;
     margin: auto;
   }
-  .skill-rows svg {
+  .skill-svg {
     margin: auto;
     justify-content: center;
     display: flex;
@@ -220,5 +245,12 @@
   .skill-rows {
     padding-bottom: 30px;
   }
-
+  .email-btn {
+    text-align: center;
+    margin: auto;
+  }
+  .inner-left h1 {
+    margin: auto;
+    text-align: center;
+  }
 }
