@@ -9,7 +9,6 @@ export class ProjectPage extends Component {
             <div>
                 <Navbar />
                 <Projects />
-                <Footer />
             </div>
         )
     }

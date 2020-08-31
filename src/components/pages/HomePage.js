@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
-import Lottie from 'react-lottie';
 
+import Footer from '../Footer';
+
+import Lottie from 'react-lottie';
 import { Col, Row, Button } from 'react-bootstrap';
 import FadeIn from "react-fade-in";
 
 // Get compressed to load first?
 import * as placeholder from '../../assets/images/placeholder.jpg';
 import * as scrollData from '../../scrollLottie.json';
-import Skills from '../Skills';
 
 const defaultOptions4 = {
     loop: true,
@@ -23,9 +24,9 @@ export class HomePage extends Component {
         return (
             <div className="homeContain">
                 <Row>
-                    <div className="lottie1">
+                    {/* <div className="lottie1">
                             <Lottie className="lottie1" options={defaultOptions4} height={50} width={50} />
-                    </div>
+                    </div> */}
                     
                     <Col lg={7} md={12} sm={12} className="home-left">
                         <div className="inner-left">
@@ -47,7 +48,22 @@ export class HomePage extends Component {
                         </FadeIn>
                     </Col>
                 </Row>
-                <Skills  />
+                <div className="footer lottie1">
+                <div className="fab-container">
+                    <a href="https://github.com/retro1967" 
+                        rel="noopener noreferrer" 
+                        target="_blank">
+                        <i className="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/conrad-trost-635b591a0/" 
+                        rel="noopener noreferrer" 
+                        target="_blank">
+                        <i className="fab fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+            </div>
             </div>
         )
     }

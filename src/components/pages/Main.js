@@ -2,7 +2,6 @@ import React from "react";
 
 import Navigation from "../Navbar";
 import HomePage from './HomePage';
-import Footer from '../Footer';
 
 
 function Main() {
@@ -10,7 +9,6 @@ function Main() {
     <>
         <Navigation />
         <HomePage />
-        <Footer />
     </>
   );
 }
