@@ -180,6 +180,18 @@ $selected: rgb(58, 58, 58);
   font-weight: 200;
 }
 
+.resume-container {
+  padding-top: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  width: 900px;
+  height: 88vh;
+}
+
 @keyframes project-animation {
   0% {
     transform: scale(1);
