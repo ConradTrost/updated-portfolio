@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/updated-portfolio/static/css/main.c1c5b096.chunk.css",
+    "main.js": "/updated-portfolio/static/js/main.a83558da.chunk.js",
+    "main.js.map": "/updated-portfolio/static/js/main.a83558da.chunk.js.map",
+    "runtime-main.js": "/updated-portfolio/static/js/runtime-main.95c258e4.js",
+    "runtime-main.js.map": "/updated-portfolio/static/js/runtime-main.95c258e4.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/updated-portfolio/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.a05b098a.chunk.js": "/updated-portfolio/static/js/2.a05b098a.chunk.js",
+    "static/js/2.a05b098a.chunk.js.map": "/updated-portfolio/static/js/2.a05b098a.chunk.js.map",
+    "index.html": "/updated-portfolio/index.html",
+    "precache-manifest.cc48030f906c2855786ab1f3d542cae8.js": "/updated-portfolio/precache-manifest.cc48030f906c2855786ab1f3d542cae8.js",
+    "service-worker.js": "/updated-portfolio/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/updated-portfolio/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.c1c5b096.chunk.css.map": "/updated-portfolio/static/css/main.c1c5b096.chunk.css.map",
+    "static/js/2.a05b098a.chunk.js.LICENSE.txt": "/updated-portfolio/static/js/2.a05b098a.chunk.js.LICENSE.txt",
+    "static/media/Resume_08_2020.pdf": "/updated-portfolio/static/media/Resume_08_2020.20485d6d.pdf",
+    "static/media/car.jpg": "/updated-portfolio/static/media/car.c38f6b3c.jpg",
+    "static/media/myself_seo.e0d41c3b.svg": "/updated-portfolio/static/media/myself_seo.e0d41c3b.svg",
+    "static/media/placeholder.jpg": "/updated-portfolio/static/media/placeholder.32874507.jpg",
+    "static/media/remote.jpg": "/updated-portfolio/static/media/remote.d32f94f2.jpg",
+    "static/media/space.jpg": "/updated-portfolio/static/media/space.1d801dd5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95c258e4.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.a05b098a.chunk.js",
+    "static/css/main.c1c5b096.chunk.css",
+    "static/js/main.a83558da.chunk.js"
+  ]
+}
