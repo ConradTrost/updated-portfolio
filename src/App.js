@@ -1,6 +1,7 @@
 import React from "react";
 
 import Loading from "./loading.js";
+import ReactDOM from 'react-dom';
 import AboutPage from './components/pages/AboutPage';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import ProjectPage from './components/pages/ProjectPage';
@@ -9,9 +10,11 @@ import ResumePage from './components/pages/ResumePage';
 
 import "./App.scss";
 
+ReactDOM.render(<Router basename={process.env.PUBLIC_URL}>< App /></Router>, document.getElementById('root'));
+
 function App() {
   return (
-    <Router>
+    // <Router>
       <div className="App">
 
 
@@ -22,7 +25,7 @@ function App() {
           <Route path="/resume" render={() => <ResumePage />} />
 
       </div>
-    </Router>
+    // </Router>
   );
 }
 
